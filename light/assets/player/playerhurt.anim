@@ -1,0 +1,67 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "playerhurt",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.9,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "paths": {
+      "sprite": {
+        "props": {
+          "opacity": [
+            {
+              "frame": 0,
+              "value": 255
+            },
+            {
+              "frame": 0.15,
+              "value": 80
+            },
+            {
+              "frame": 0.3,
+              "value": 255
+            },
+            {
+              "frame": 0.45,
+              "value": 80
+            },
+            {
+              "frame": 0.6,
+              "value": 255
+            },
+            {
+              "frame": 0.75,
+              "value": 80
+            },
+            {
+              "frame": 0.9,
+              "value": 255
+            }
+          ]
+        }
+      },
+      "sprite/hurtbox": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            },
+            {
+              "frame": 0.05,
+              "value": true
+            },
+            {
+              "frame": 0.9,
+              "value": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

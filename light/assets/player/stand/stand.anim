@@ -1,0 +1,83 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "stand",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.875,
+  "sample": 8,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "665b44e5-ed8f-4b76-a608-3d9d8aa5507b"
+            }
+          },
+          {
+            "frame": 0.125,
+            "value": {
+              "__uuid__": "ad8455ea-6da3-4bf9-991f-481fc2463cee"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "67a588b5-c1e8-474d-a810-44da3d2f987c"
+            }
+          },
+          {
+            "frame": 0.375,
+            "value": {
+              "__uuid__": "1d36829b-81ec-42d5-8e68-3b739595994f"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "c64ca5f9-c61b-44ef-9d7e-630259d2deac"
+            }
+          },
+          {
+            "frame": 0.625,
+            "value": {
+              "__uuid__": "63309e74-dcb9-45d0-a255-fdc5859b53ae"
+            }
+          },
+          {
+            "frame": 0.75,
+            "value": {
+              "__uuid__": "1483468b-dd48-488f-9465-0d82502338dc"
+            }
+          }
+        ]
+      }
+    },
+    "paths": {
+      "playerHitBox": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      },
+      "swordlight": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

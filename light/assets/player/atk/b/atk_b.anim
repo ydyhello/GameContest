@@ -1,0 +1,164 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "atk_b",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.5666666666666667,
+  "sample": 30,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "bd34747c-289a-45ea-8d10-f4c05e3d1b5f"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "d49ef100-80a3-4ab9-b47a-ad66ad46238d"
+            }
+          },
+          {
+            "frame": 0.13333333333333333,
+            "value": {
+              "__uuid__": "a22f1bdc-9403-4bad-af32-0a5dc855cd99"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "1ff07815-6bdb-4ec2-a3d7-8eaf5d408b81"
+            }
+          },
+          {
+            "frame": 0.26666666666666666,
+            "value": {
+              "__uuid__": "99dc50f4-d399-46f9-8484-fabb783c21de"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "269cb5df-848b-4136-8f71-47bd2ad75964"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "2be72635-6b31-4bb7-b1f7-544140dbf7fb"
+            }
+          }
+        ]
+      }
+    },
+    "paths": {
+      "swordlight": {
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "23c6711e-a98d-41ca-a257-adae1d70f4d1"
+                }
+              },
+              {
+                "frame": 0.06666666666666667,
+                "value": {
+                  "__uuid__": "6ef15950-888b-45d1-84dc-390b32714fef"
+                }
+              },
+              {
+                "frame": 0.13333333333333333,
+                "value": {
+                  "__uuid__": "ace4df01-851b-4130-bdf7-2fe3e0c46327"
+                }
+              },
+              {
+                "frame": 0.2,
+                "value": {
+                  "__uuid__": "5957b2cc-8ffe-4956-bef9-0c0c0110fee8"
+                }
+              }
+            ]
+          }
+        },
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": true
+            },
+            {
+              "frame": 0.26666666666666666,
+              "value": false
+            }
+          ]
+        }
+      },
+      "playerHitBox": {
+        "props": {
+          "active": [
+            {
+              "frame": 0,
+              "value": false
+            },
+            {
+              "frame": 0.06666666666666667,
+              "value": true
+            },
+            {
+              "frame": 0.1,
+              "value": true
+            },
+            {
+              "frame": 0.13333333333333333,
+              "value": false
+            }
+          ]
+        },
+        "comps": {
+          "cc.BoxCollider": {
+            "offset": [
+              {
+                "frame": 0.06666666666666667,
+                "value": {
+                  "__type__": "cc.Vec2",
+                  "x": -16.5,
+                  "y": 0
+                }
+              }
+            ],
+            "size": [
+              {
+                "frame": 0.06666666666666667,
+                "value": {
+                  "__type__": "cc.Size",
+                  "width": 154.7,
+                  "height": 100
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0.06666666666666667,
+      "func": "soundsword",
+      "params": []
+    },
+    {
+      "frame": 0.5666666666666667,
+      "func": "finish",
+      "params": []
+    }
+  ]
+}
