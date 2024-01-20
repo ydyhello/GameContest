@@ -1,4 +1,4 @@
 # GameContest
 体感游戏大赛源码
 
-太懒了，有空再补充视频和文档:)
+- [slide](https://ydyhello.github.io/2023/11/04/%E4%BD%93%E6%84%9F%E6%B8%B8%E6%88%8F%E5%A4%A7%E8%B5%9B/)
